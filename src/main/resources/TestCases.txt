@@ -1,0 +1,20 @@
+Test case 1:
+"User should be able to navigate through the slideshow images"
+
+Step to reproduce:                                                                   | Expected result:
+1. Navigate to the slideshow (link "http://challenge.publitas.com/qa.html");         | User should be able to see the slideshow.
+2. Navigate forward throw the slideshow images;                                      | User should be able to navigate forward throw the slideshow.
+3. Check if "Slide Forward Stepper button" disabled at the end of the slideshow;     | "Slide Forward Stepper button" disabled at the end of the slideshow.
+4. Navigate back throw the slideshow images;                                         | User should be able to navigate back throw the slideshow.
+5. Check if "Slide Back Stepper button" disabled at the beginning of the slideshow;  | "Slide Forward Stepper button" disabled at the end of the slideshow.
+6. Check that there are not possible to loop the slideshow;                          | There are no loop functionality in the slideshow
+
+
+Test case 2:
+"Check the indication of the total amount of slides."
+
+Step to reproduce:                                                                   | Expected result:
+1. Navigate to the slideshow (link "http://challenge.publitas.com/qa.html");         | User should be able to see the slideshow.
+2. Check the indication of the total amount of slides;                               | Total amount of slides must equal the added ones.
+3. Check the current position within the total number of slides;                     | Current position within the total number of slides must be visible.
+

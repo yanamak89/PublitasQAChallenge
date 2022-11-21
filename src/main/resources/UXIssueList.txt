@@ -1,0 +1,4 @@
+UX Issue List:
+
+- different formats of pictures added
+- "Slide Forward Stepper button" are not disabled at the beginning and at the end of slideshow

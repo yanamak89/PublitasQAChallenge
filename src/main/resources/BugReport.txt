@@ -1,0 +1,29 @@
+Bug report 1.
+Priority: Medium
+Severity: Low
+
+Summary:  "Slide Forward Stepper button" must be disabled and blank images should not be shown.
+
+1. Navigate to the slideshow (link "http://challenge.publitas.com/qa.html");
+2. Press the "Slide Forward Stepper button" 5 times.
+
+Expected result: It's not possible to press the "Slide Forward Stepper button" more than an exact number of slides
+                 indicated in the image slideshow. "Slide Forward Stepper button" must be disabled at the End of the
+                 slideshow. Blank images should not be shown.
+Actual result: It's possible to press the "Slide Forward Stepper button" one time more than the exact number of slides are
+               indicated in the image slideshow.
+               "Slide Forward Arrow" is enabled at the End of the slideshow. Blank images are added.
+
+
+Bug report 2.
+Priority: Medium
+Severity: Low
+
+Summary: "Slide Back Stepper button" is enabled.
+
+1. Navigate to the slideshow (link "http://challenge.publitas.com/qa.html");
+2. Check if "Slide Back Stepper button" is disabled at the beginning of the slideshow.
+
+Expected result: At the beginning of the slideshow "Slide Back Stepper button" must be disabled.
+Actual result: At the beginning of the slideshow "Slide Back Stepper button" is enabled.
+
